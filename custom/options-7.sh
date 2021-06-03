@@ -29,6 +29,7 @@ configoptions="
 --with-pear \
 --with-png-dir \
 --with-readline \
+--with-sodium \
 --with-xsl \
 --with-zlib
 "

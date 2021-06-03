@@ -1,4 +1,4 @@
-# options-7.sh
+# options-7.4.sh
 # Like options-5.6.sh
 
 configoptions="
@@ -18,7 +18,7 @@ configoptions="
 --enable-wddx \
 --enable-zip \
 --with-curl \
---with-freetype-dir=/usr/include/freetype2 \
+--with-freetype=/usr/include/freetype2 \
 --with-gettext \
 --with-jpeg-dir \
 --with-mcrypt \
@@ -29,6 +29,7 @@ configoptions="
 --with-pear \
 --with-png-dir \
 --with-readline \
+--with-sodium \
 --with-xsl \
 --with-zlib
 "
